@@ -1,0 +1,11 @@
+.headerTitle{
+    color:#8918f2 
+}
+
+.pageButton{
+    color:rgb(226, 47, 76);
+    background-color:aqua;
+    border:none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
