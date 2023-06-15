@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {CustomButton} from "./components/CustomButton"
 
 function App() {
   console.log("testing")
@@ -18,8 +19,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Something Else
+          Learn Something Else can you see this? 
         </a>
+        <CustomButton />
       </header>
     </div>
   );
