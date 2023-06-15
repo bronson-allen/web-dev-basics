@@ -1,11 +1,8 @@
 import React from "react";
 
-const CustomButton = () =>{
-    return (
-        <button>
-            My Button
-        </button>
-    )
-}
-
-export default CustomButton
+export const CustomButton = ({ name }) => {
+  const handleClick = () => {
+    console.log(`${name}'s button was clicked`);
+  };
+  return <button onClick={handleClick}>My Button</button>;
+};

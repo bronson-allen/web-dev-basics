@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-import {CustomButton} from "./components/CustomButton"
+import logo from "./logo.svg";
+import "./App.css";
+import { CustomButton } from "./components/CustomButton";
 
 function App() {
-  console.log("testing")
-  
+  console.log("testing");
 
   return (
     <div className="App">
@@ -19,9 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Something Else can you see this? 
+          Learn Something Else can you see this?
         </a>
-        <CustomButton />
+        <CustomButton name={"bronson"} />
       </header>
     </div>
   );
